@@ -50,6 +50,15 @@ Overall Analysis:
    - Shopping behavior insights
    - Specific actionable recommendations for saving money
 
+Important formatting instructions:
+- Use plain text only
+- Do not use any markdown syntax or formatting
+- Use simple hyphens (-) for bullet points
+- Use regular numbers (1, 2, 3) for numbered lists
+- Use line breaks and spacing for visual separation
+- Maintain consistent indentation using spaces
+- Keep the analysis clean and readable without any special formatting characters
+
 Please be precise with numbers and maintain a professional, analytical tone throughout the analysis.`;
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string);
